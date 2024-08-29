@@ -20,7 +20,7 @@ The web application will include functionalities for course creation, video mana
 
 **1.4 References**
 IEEE Std 830-1998, IEEE Recommended Practice for Software Requirements Specifications
-<u>Online Course Platforms: </u>Coursera, Udemy, edX
+<u>Online Course Platforms: </u>Coursera, Udemy, edX, <a>https://quiz.com/ </a>
 
 **1.5 Overview**
 This document contains detailed descriptions of the system's functionalities, interfaces, and constraints. It is organized into several sections, including system features, external interface requirements, system requirements, and other non-functional requirements.
@@ -33,9 +33,14 @@ The application will be a standalone web-based system, accessible via standard w
 <u>Course Management:</u> Instructors can create, edit, and delete courses.
 <u>Video Management:</u> Instructors can upload and manage pre-recorded videos.
 <u>Quiz Management:</u> Instructors can create, edit, and delete quizzes.
+<u>Media Management:</u> Instructors can include videos,images,memes,etc. as part of the quiz questions.
 <u>Student Progress Tracking:</u> The system tracks student progress and quiz results.
 <u>User Management:</u> Admins can manage user accounts and roles.
-Access Control: The system controls access to course content based on quiz results.
+<u>Seamless Integration:</u> Users can sign in through the site or through email or social media handles.
+<u>Competitiveness:</u> The students can view their results and a  real-time leaderboard instantly after the quizzes.
+<u>AI compatibility:</u> Generating quizzes automatically based on a certain topic.
+<u>Access Control:</u> The system controls access to course content based on quiz results.
+                       Seamless access from all social media handles.
 
 **2.3 User Classes and Characteristics**
 <u>Admins:</u> Manage the overall system, user roles, and permissions.
@@ -69,7 +74,7 @@ Instructors can create and manage courses. This is a high-priority feature.
 <u>FR2: </u>Instructors can edit existing courses.
 <u>FR3:</u> Instructors can delete courses.
 <u>FR4:</u> Instructors can view a list of all their courses.
-
+<u>FR5:</u> Instructors can see get a results in the form of a leaderboard.
 #### 3.2 Video Management
 ##### 3.2.1 Description and Priority
 Instructors can upload and manage pre-recorded videos. This is a high-priority feature.
@@ -91,6 +96,7 @@ Instructors can create and manage quizzes. This is a high-priority feature.
 <u>FR2:</u> Instructors can edit existing quizzes.
 <u>FR3:</u> Instructors can delete quizzes.
 <u>FR4:</u> Instructors can set passing criteria for quizzes.
+<u>FR5:</u>
 
 #### 3.4 Student Progress Tracking
 ##### 3.4.1 Description and Priority
@@ -101,6 +107,8 @@ The system tracks student progress and quiz results. This is a high-priority fea
 <u>FR1: </u>The system records student progress through course sections.
 <u>FR2: </u>The system tracks quiz results.
 <u>FR3: </u>The system allows students to view their progress and quiz results.
+<u>FR4:</u>The system should allow students to upload their photo.
+<u>FR5:</u>The system should allow the students to pause the quiz at any time.
 #### 3.5 User Management
 ##### 3.5.1 Description and Priority
 Admins can manage user accounts and roles. This is a medium-priority feature.
